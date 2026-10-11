@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "pet",
+  "description": "A tiny terminal pet that lives on your coding sessions.",
+  "owner": { "name": "pet" },
+  "plugins": [{ "name": "pet", "source": "./", "description": "A tiny terminal pet that lives on your coding sessions." }]
+}

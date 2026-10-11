@@ -1,0 +1,6 @@
+{
+  "name": "pet-mod",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "claude plugin test ." }
+}
