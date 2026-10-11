@@ -44,8 +44,7 @@ export function register(on) {
       }
     } catch {
       // best effort
-    }
-    return result;
+    }    return result;
   }).catch(($, e, next) => next(e));
 
   on('tool.call', async ($, e, next) => {
