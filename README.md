@@ -19,7 +19,7 @@ line above your prompt.
 
 ## Install
 
-    /plugin marketplace add <owner>/pet-mod
+    /plugin marketplace add Ron-Nefyodov/pet-mod
     /plugin install pet@pet
 
 Or try it locally: `claude --plugin-dir .`
