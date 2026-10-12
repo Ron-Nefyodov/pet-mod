@@ -24,7 +24,6 @@ line above your prompt.
 
 Or try it locally: `claude --plugin-dir .`
 
-
 ## Develop
 
     npm test            # claude plugin test .
