@@ -29,7 +29,8 @@ export function register(on) {
         await updatePet({ get: (k) => $.store.get(k), set: (k, v) => $.store.set(k, v) }, now, (p) => applyEvent(p, { type: 'activity' }, now));
         $.ui.invalidate('ui.render');
       } catch {
-      }    }
+      }
+    }
     return result;
   }).catch(($, e, next) => next(e));
 
@@ -44,7 +45,8 @@ export function register(on) {
       }
     } catch {
       // best effort
-    }    return result;
+    }
+    return result;
   }).catch(($, e, next) => next(e));
 
   on('tool.call', async ($, e, next) => {
@@ -138,4 +140,5 @@ export function register(on) {
       return next(e);
     }
   });
+
 }

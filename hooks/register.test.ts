@@ -183,7 +183,6 @@ describe('pet wiring', () => {
     expect(await bandText($)).not.toContain('sleeping');
   });
 
-
   test('other surfaces get the engine drawing', async ($: any, on: any) => {
     world(on, { pet: seeded() });
     const ui = await $.ui.mount({ plugin: 'pet', surface: 'desktop', component: 'AbovePrompt', props: BAND });
