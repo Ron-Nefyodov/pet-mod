@@ -2,6 +2,16 @@
 
 A tiny terminal pet that lives on your coding sessions.
 
+## Why
+
+Long sessions get dull. A pet makes your progress visible: it is happy when
+your tests pass and sad when a tool fails, so you notice both at a glance.
+
+- **Reacts to real work.** It watches answers, tool errors and passing test runs.
+- **Out of the way.** One line above the prompt. `/pet` for the big view.
+- **Never dies.** Leave for a week; it just gets grumpy.
+- **Private.** It lives in the mod's local store. No network calls.
+
 ## Use
 
 Your pet hatches on first start: a cat, dog, blob or dragon. It lives in one
