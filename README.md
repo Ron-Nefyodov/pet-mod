@@ -2,6 +2,8 @@
 
 A tiny terminal pet that lives on your coding sessions.
 
+![Pet pane: a dragon named Tofu with food, happiness and energy bars](assets/demo.gif)
+
 ## Why
 
 Long sessions get dull. A pet makes your progress visible: it is happy when
